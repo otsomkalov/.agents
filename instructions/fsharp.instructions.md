@@ -26,3 +26,5 @@ applyTo: '**/*.fs'
 - Setup mocks before entering `task` computational expression
 - Do not add `Mock` suffix to mock variable names
 - Do not call `|> ignore` in case if mock is set up inside type `member`
+- Use `Assert.Contains` instead of `should contain` and searching in collection by property
+- While using `FsUnit.xUnit`, preferer `should contain expected` instead of checking individual properties of `expected`
